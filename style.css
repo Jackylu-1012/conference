@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft JhengHei";
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+.header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.button{
+    float: right;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+.button:hover{
+    color: white;
+    background-color: #026a8a;
+}
+
+
+.text{
+    display: block;
+    color: red;
+	list-style: decimal;
+	margin-bottom: 20px;
+}
+
+.text li{
+	display: black;
+	margin-bottom: 4px;
+}
+.group{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+select{
+    height: 30px;
+}
+
+.w-10{
+	width: 10%;
+}
+
+.w-15{
+	width: 10%;
+}
+
+
+.sticky{
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+	background-color: white;
+}
